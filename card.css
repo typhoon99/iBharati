@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(63, 60, 60);
+}
+.carousel{
+    transform: translateY(-100px);
+    height: 750px;
+    perspective: 600px;
+}
+.carousel .carousel-item{
+    width: 400px;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+}
+.carousel .carousel-item .modi{
+    width: 200px;
+    position: relative;
+    left: 90px;
+}
+.carousel .carousel-item .falguni{
+    width: 200px;
+    position: relative;
+    left: 90px;
+}
+    .carousel .carousel-item .garaba{
+        width: 200px;
+        position: relative;
+        left: 90px;
+    }
+
+    
+.carousel .carousel-item h3{
+    margin: -5px 0 0; 
+    padding: 0;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.carousel .carousel-item h5{
+    margin: -5px 0 0; 
+    padding: 0;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
