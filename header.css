@@ -4,6 +4,11 @@ body{
     font-family:sans-serif;
     box-sizing: border-box;
     width: 80px;
+    background-image: url("img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     
 }
 .logo1{
@@ -53,11 +58,11 @@ body{
     
 
 header{
-    width:1530px;
+    width:1535px;
     height: 100px;
     position: relative;
-    top:-19px;
-    background-color:rgb(34, 34, 95); 
+    top:-29px;
+    background-color:rgb(20, 20, 70); 
 }
 
 
@@ -179,32 +184,22 @@ header{
     width: 30px;
     padding: 5px 5px;
 }
-footer{
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height:30px;
+   width: 100%;
+   background-color: rgb(17, 17, 68);
+   text-align: center;
+}
+.heading{
+    margin-top: 50px;
     text-align: center;
-    position: relative;
-    margin-top:-550px;
-    margin-left: 50px;
-    width: 500px;
-    padding: 5px 5px;
+    margin-left: 100px;
+    color: rgb(45, 8, 129);
+    position: absolute;
 
 }
-.heading h5{
-    margin: 10px;
-    
-    color: rgb(45, 8, 129);
-}
-.heading p{
-    margin: 10px;
-    color: rgb(45, 8, 129);
 
-}
-.heading p{
-    margin: 10px;
-    color: rgb(45, 8, 129);
 
-}
-.heading p{
-    margin: 10px;
-    color: rgb(45, 8, 129);
-
-}
