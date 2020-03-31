@@ -1,81 +1,44 @@
-body{
-    font-family: Tahoma;
-    overflow-x: hidden;
-    background-image: url(ur.jpg);
- }
- .hi-slide{
-     position: relative;
-     width: 754px;
-     height: 292px;
-     margin: 115px auto 0;
- }
-
- .hi-slide .hi-next,
- .hi-slide .hi-prev{
-     position: absolute;
-     top: 50%;
-     width: 40px;
-     height: 40px;
-     margin-top: -20px;
-     border-radius: 50px;
-     line-height: 40px;
+h2{
      text-align: center;
-     cursor: pointer;
-     background-color: white;
-     color: black;
-     transition: all 0.7s;
-     font-size: 20px;
+     text-decoration: initial;
+     text-orientation: initial;
+     font-family: italic;
+     background: white;
+     font-size: large;
+     margin-top: 0px;
      font-weight: bold;
+     border:2px solid white;
+     padding: 0px;
+     margin-bottom: 0;
+     color:brown;
+  
+
+}
+
+.carousel{
+     transform: translateZ(-100px);
+     height: 750px;
+     perspective: 500px;
  }
 
- .hi-slide .hi-next :hover,
- .hi-slide .hi-prev :hover{
-     opacity: 1;
-     background-color: white;
- }
+body{
+     background-color: black;
+     margin: 0px;
+     padding-top: 80px;
+}
 
- .hi-slide .hi-prev{
-     left: -70px;
+.carousel .carousel-item{
+     width:300px;
+}
+.carousel .carousel-item{
+     height:500px;
+}
+ h6{
+ 	text-align: center;
+ 	border:2px solid white;
+     margin-top: 0;
+     background-color: white; 
  }
-
- .hi-slide .hi-prev::before{
-     content: '<';
- }
-
- .hi-slide .hi-next{
-     right: -70px;
- }
-
- .hi-slide .hi-next::before{
-     content: '>';
- }
-
- .hi-slide > ul{
-     list-style: none;
-     position: relative;
-     width: 754px;
-     height: 292px;
-     margin: 0;
-     padding: 0;
- }
-
- .hi-slide > ul > li{
-     overflow: hidden;
-     position: absolute;
-     z-index: 0;
-     left: 377px;
-     top: 147px;
-     width: 0;
-     height: 0;
-     margin: 0;
-     padding: 0;
-     border: 3px solid white;
-     background-color: #333;
-     cursor: pointer;
- }
-
- .hi-slide > ul > li > img{
-     width: 100%;
-     height: 100%;
-     background-position: center;
+ table{
+ 	border-collapse: collapse;
  }
